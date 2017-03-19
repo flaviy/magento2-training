@@ -7,5 +7,9 @@
                 <argument name="background_color" xsi:type="string">orange</argument>
             </arguments>
         </referenceBlock>
+        <referenceContainer name="content">
+            <block class="Magento\Framework\View\Element\Template" name="print-attributes" template="Training_Test2::print_attributes.phtml">
+        </block>
+        </referenceContainer>
     </body>
 </page>

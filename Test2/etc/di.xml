@@ -9,6 +9,9 @@
    <type name="Magento\Theme\Block\Html\Footer">
         <plugin name="modifyCopyRight" type="Training\Test2\Block\Footer\Plugin\ModifyCopyRight" />
     </type>
+    <type name="Magento\Catalog\Controller\Product\View">
+        <plugin name="product-view-controller-plugin"  type="Training\Test2\Controller\Product\Plugin\View" sortOrder="10"/>
+    </type>
     <type name="Magento\Framework\App\Router\NoRouteHandlerList">
         <arguments>
             <argument name="handlerClassesList" xsi:type="array">
